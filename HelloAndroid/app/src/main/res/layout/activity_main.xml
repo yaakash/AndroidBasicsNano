@@ -52,7 +52,8 @@
             android:layout_height="wrap_content"
             android:textColor="#fff"
             android:fontFamily="sans-serif-condensed"
-            android:text="650-555-5555"
+            android:text="@string/udacity_number"
+            android:autoLink="phone"
             android:layout_margin="15dp"
             android:textAppearance="?android:textAppearanceLarge"
             />
@@ -72,9 +73,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
+            android:textColorLink="#ffffff"
             android:fontFamily="sans-serif-condensed"
-            android:text="www.udacity.com"
+            android:text="@string/udacity_website"
+            android:autoLink="web"
             android:layout_margin="15dp"
             android:textAppearance="?android:textAppearanceLarge"
             />
@@ -82,7 +84,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="#455A64"
         android:orientation="horizontal">
 
@@ -96,10 +98,12 @@
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
             android:fontFamily="sans-serif-condensed"
-            android:text="2465 Latham St. Mountain View CA 94043"
+            android:autoLink="map"
+            android:text="@string/udacity_address"
             android:layout_margin="15dp"
             android:textAppearance="?android:textAppearanceLarge"
             />
     </LinearLayout>
+
 
 </LinearLayout>
