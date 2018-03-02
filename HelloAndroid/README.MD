@@ -1,6 +1,10 @@
 ### UI XML
 #### can be found inside: https://github.com/yaakash/AndroidBasicsNano/edit/master/HelloAndroid/app/src/main/res/layout/activity_main.xml
 
+### App UI:
+![helloandroid first project ui](https://user-images.githubusercontent.com/7467539/36889023-1a1e8116-1e1e-11e8-9b77-3b2b836e35a0.png)
+
+
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
