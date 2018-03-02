@@ -4,7 +4,7 @@ Repo is Dedicated to work and initial practical learning implementations in andr
 
 ## First Application UI: (BlackPanther Birthday Card)
 
-![screenshot 16](https://user-images.githubusercontent.com/7467539/36638820-1f099894-1a24-11e8-9136-abc72813eaec.png)
+![blackpanther bdaycard](https://user-images.githubusercontent.com/7467539/36913037-a4e61872-1e6e-11e8-85f9-a7e0cf3cc6ad.png)
 
 
 ## Udacity First Project: 
