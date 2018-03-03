@@ -12,5 +12,5 @@ Repo is Dedicated to work and initial practical learning implementations in andr
 ### Includes: LinearLayout(nested LinearLayouts), ImageViews, and TextViews.
 ### UI Explanation Video: https://youtu.be/u9AmWDzfwYw
 
-![helloandroid first project ui](https://user-images.githubusercontent.com/7467539/36889023-1a1e8116-1e1e-11e8-9b77-3b2b836e35a0.png)
+![helloandroid first project ui](https://user-images.githubusercontent.com/7467539/36931185-ca52220a-1ed6-11e8-8f3d-992d3ce68dd1.png)
 
