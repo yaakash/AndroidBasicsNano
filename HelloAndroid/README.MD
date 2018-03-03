@@ -2,12 +2,10 @@
 #### can be found inside: https://github.com/yaakash/AndroidBasicsNano/edit/master/HelloAndroid/app/src/main/res/layout/activity_main.xml
 
 ### App UI:
-![helloandroid first project ui](https://user-images.githubusercontent.com/7467539/36889023-1a1e8116-1e1e-11e8-9b77-3b2b836e35a0.png)
-
+![helloandroid first project ui](https://user-images.githubusercontent.com/7467539/36931185-ca52220a-1ed6-11e8-8f3d-992d3ce68dd1.png)
 
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -20,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:src="@drawable/udacity_logo"
-        android:scaleType="centerCrop">
+        android:scaleType="centerCrop" />
 
     <LinearLayout
             android:layout_width="match_parent"
@@ -60,7 +58,8 @@
             android:layout_height="wrap_content"
             android:textColor="#fff"
             android:fontFamily="sans-serif-condensed"
-            android:text="650-555-5555"
+            android:text="@string/udacity_number"
+            android:autoLink="phone"
             android:layout_margin="15dp"
             android:textAppearance="?android:textAppearanceLarge"
             />
@@ -80,9 +79,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
+            android:textColorLink="#ffffff"
             android:fontFamily="sans-serif-condensed"
-            android:text="www.udacity.com"
+            android:text="@string/udacity_website"
+            android:autoLink="web"
             android:layout_margin="15dp"
             android:textAppearance="?android:textAppearanceLarge"
             />
@@ -90,7 +90,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="#455A64"
         android:orientation="horizontal">
 
@@ -104,10 +104,13 @@
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
             android:fontFamily="sans-serif-condensed"
-            android:text="2465 Latham St. Mountain View CA 94043"
+            android:autoLink="map"
+            android:text="@string/udacity_address"
             android:layout_margin="15dp"
             android:textAppearance="?android:textAppearanceLarge"
             />
     </LinearLayout>
 
+
 </LinearLayout>
+
